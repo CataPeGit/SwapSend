@@ -2,7 +2,7 @@
 A way to swap tokens and send them to a receiver.
 
 
-!Requirements:
+# Requirements:
 
 --A crypto wallet such as MetaMask (Get MetaMask: https://metamask.io/)
 
