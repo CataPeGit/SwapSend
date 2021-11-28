@@ -1,0 +1,203 @@
+#window {
+  margin-top: 50px;
+  color: #fff;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 0 5px black;
+  background: linear-gradient(48deg, #000000, #141313);
+  background-size: 400% 400%;
+
+  -webkit-animation: windowBackground 59s ease infinite;
+  -moz-animation: windowBackground 59s ease infinite;
+  animation: windowBackground 59s ease infinite;
+}
+
+.swapbox_select {
+  width: 50%;
+  float: left;
+}
+
+.swapbox {
+  overflow: auto;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #2f2f2f;
+  border-radius: 20px;
+  border: 1px solid #565656;
+}
+
+.border_select {
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.token_select {
+  padding: 5px 0;
+}
+
+.token_select:hover {
+  background-color: #262626;
+  cursor: pointer;
+}
+
+.token_list_img,
+.token_image {
+  width: 40px;
+}
+
+.modal-body {
+  height: 600px;
+  overflow: scroll;
+}
+
+.token_row {
+  padding: 5px 10px;
+}
+
+.token_row:hover {
+  background-color: #e4e4e4;
+  cursor: pointer;
+}
+
+.swapbox_select_amount {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.swapbox_select_amount_send {
+  margin-top: -1px;
+  margin-left: 15px;
+}
+
+.swapbox_select_amount_send2 {
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+.body {
+  background: linear-gradient(17deg, #263632, #1c3831, #1c3831);
+  background-size: 600% 600%;
+
+  -webkit-animation: bodyBackgrond 59s ease infinite;
+  -moz-animation: bodyBackgrond 59s ease infinite;
+  animation: bodyBackgrond 59s ease infinite;
+}
+
+@-webkit-keyframes bodyBackgrond {
+  0% {
+    background-position: 58% 0%;
+  }
+  50% {
+    background-position: 43% 100%;
+  }
+  100% {
+    background-position: 58% 0%;
+  }
+}
+@-moz-keyframes bodyBackgrond {
+  0% {
+    background-position: 58% 0%;
+  }
+  50% {
+    background-position: 43% 100%;
+  }
+  100% {
+    background-position: 58% 0%;
+  }
+}
+@keyframes bodyBackgrond {
+  0% {
+    background-position: 58% 0%;
+  }
+  50% {
+    background-position: 43% 100%;
+  }
+  100% {
+    background-position: 58% 0%;
+  }
+}
+
+.navbar-background {
+  background: linear-gradient(242deg, #212b28, #23493f);
+  background-size: 400% 400%;
+
+  -webkit-animation: NavbarBackground 59s ease infinite;
+  -moz-animation: NavbarBackground 59s ease infinite;
+  animation: NavbarBackground 59s ease infinite;
+}
+
+@-webkit-keyframes NavbarBackground {
+  0% {
+    background-position: 99% 0%;
+  }
+  50% {
+    background-position: 2% 100%;
+  }
+  100% {
+    background-position: 99% 0%;
+  }
+}
+@-moz-keyframes NavbarBackground {
+  0% {
+    background-position: 99% 0%;
+  }
+  50% {
+    background-position: 2% 100%;
+  }
+  100% {
+    background-position: 99% 0%;
+  }
+}
+@keyframes NavbarBackground {
+  0% {
+    background-position: 99% 0%;
+  }
+  50% {
+    background-position: 2% 100%;
+  }
+  100% {
+    background-position: 99% 0%;
+  }
+}
+
+@-webkit-keyframes windowBackground {
+  0% {
+    background-position: 0% 86%;
+  }
+  50% {
+    background-position: 100% 15%;
+  }
+  100% {
+    background-position: 0% 86%;
+  }
+}
+@-moz-keyframes windowBackground {
+  0% {
+    background-position: 0% 86%;
+  }
+  50% {
+    background-position: 100% 15%;
+  }
+  100% {
+    background-position: 0% 86%;
+  }
+}
+@keyframes windowBackground {
+  0% {
+    background-position: 0% 86%;
+  }
+  50% {
+    background-position: 100% 15%;
+  }
+  100% {
+    background-position: 0% 86%;
+  }
+}
+
+.name {
+  color: whitesmoke;
+}
+
+.signInColor {
+  color: whitesmoke;
+}
